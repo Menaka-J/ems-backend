@@ -15,6 +15,7 @@ public class EmployeeMapper {
         );
     }
 
+    //for employee dto
     public static Employee mapToEmployee(EmployeeDto employeeDto){
         return new Employee(
                 employeeDto.getId(),
