@@ -8,11 +8,13 @@ public interface EmployeeService {
     //for creation
     EmployeeDto createEmployee(EmployeeDto employeeDto);
 
-    //for retrivel
+    //for retrivel by id
     EmployeeDto getEmployeeByID(Long employeeId);
 
+    //for retrieve all
     List<EmployeeDto> getAllEmployees();
 
+    //for
     EmployeeDto updateEmployee(Long employeeId,EmployeeDto updateEmployee);
 
     void deleteEmployee(Long employeeId);
