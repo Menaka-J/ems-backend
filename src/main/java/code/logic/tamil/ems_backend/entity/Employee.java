@@ -15,6 +15,7 @@ import lombok.Setter;
 @Table(name = "employees")
 public class Employee {
 
+    //for all database operation to perform from here
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
