@@ -5,6 +5,7 @@ import code.logic.tamil.ems_backend.entity.Employee;
 
 public class EmployeeMapper {
 
+    //for employee
     public static EmployeeDto mapToEmployeeDto(Employee employee){
         return new EmployeeDto(
                 employee.getId(),
